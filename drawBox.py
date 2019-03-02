@@ -24,4 +24,4 @@ def drawBox(vertices):
 
 		pyplot.show()
 
-	boxDraw('C:\\Users\\quiet\\OneDrive\\Documents\\Hackathon!\\SteelHacks19\\powerPlant.jpeg')
+	boxDraw('powerPlant.jpeg')
