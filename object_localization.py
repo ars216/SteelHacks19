@@ -1,3 +1,5 @@
+import keywords
+
 def localize_objects(path):
     """Localize objects in the local image.
 
@@ -36,7 +38,10 @@ object_dict1 = (localize_objects("C:\\Users\\quiet\\OneDrive\\Documents\\Hackath
 object_dict2 = (localize_objects("C:\\Users\\quiet\\OneDrive\\Documents\\Hackathon!\\SteelHacks19\\powerPlantBL.jpeg"))
 object_dict3 = (localize_objects("C:\\Users\\quiet\\OneDrive\\Documents\\Hackathon!\\SteelHacks19\\powerPlantTR.jpeg"))
 object_dict4 = (localize_objects("C:\\Users\\quiet\\OneDrive\\Documents\\Hackathon!\\SteelHacks19\\powerPlantBR.jpeg"))
+'''
 print("dict1=", object_dict1)
 print("dict2=", object_dict2)
 print("dict3=", object_dict3)
 print("dict4=", object_dict4)
+'''
+keywords.keywords(object_dict1, object_dict2, object_dict3, object_dict4)
